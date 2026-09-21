@@ -1,0 +1,8 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+cache/
+# 插画源稿、参考照片与生成提示词只留本地
+content/
+scripts/*_prompt.md
+NOTES.local.md
