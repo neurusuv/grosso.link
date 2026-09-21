@@ -93,7 +93,7 @@ home = f'''
 <p class="gl-kicker"><span class="gl-swiss" aria-hidden="true"></span>Grosso Link GmbH · Swiss Innovation since 2013</p>
 <h1 class="gl-hero-title">Custom ASIC Partner for High&#8209;Performance Sensor &amp; Mixed&#8209;Signal ICs</h1>
 <p class="gl-hero-lead">We design custom low-power sensor ICs that live inside our customers’ systems — for many years.</p>
-<div class="gl-actions"><a class="gl-btn" href="/custom-asic">How we work<span class="gl-arrow" aria-hidden="true">→</span></a><a class="gl-btn gl-btn--ghost" href="/technology">Our technology</a></div>
+<div class="gl-actions"><a class="gl-btn" href="./custom-asic">How we work<span class="gl-arrow" aria-hidden="true">→</span></a><a class="gl-btn gl-btn--ghost" href="./technology">Our technology</a></div>
 </div></section>
 <div class="gl-band"><span>Precision</span><i></i><span>Integration</span><i></i><span>Reliability</span></div>
 
@@ -257,7 +257,7 @@ write('contact', contact, 'Contact', 'Contact Grosso Link, St. Jakobstrasse 58, 
 
 # ---------------- 404 ----------------
 nf = page_hero('404', 'Page not found', 'This page has moved.') + '''
-<section class="gl-section"><div class="gl-wrap"><a class="gl-btn" href="/">Back to the home page</a></div></section>
+<section class="gl-section"><div class="gl-wrap"><a class="gl-btn" href="./">Back to the home page</a></div></section>
 '''
 write('404', nf, 'Page not found', 'Page not found')
 print('pages written')

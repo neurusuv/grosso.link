@@ -187,12 +187,10 @@ a:hover > .gl-arrow { transform: translateX(4px); }
 .gl-bg::before { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
   background-repeat: no-repeat; background-position: center bottom; background-size: max(1500px, 100%) auto;
   opacity: var(--gl-bg-opacity, .5); }
-.gl-bg--hero::before    { background-image: url('/img/bg/hero-alps.webp'); --gl-bg-opacity: .62; }
 .gl-bg--chip::before    { background-image: url('/img/bg/chip-die.webp'); --gl-bg-opacity: .5; }
 .gl-bg--epfl::before    { background-image: url('/img/bg/epfl-lausanne.webp'); --gl-bg-opacity: .55; }
 .gl-bg--phero::before   { background-image: url('/img/bg/contour.webp'); --gl-bg-opacity: .28; }
 .gl-bg--contour::before { background-image: url('/img/bg/contour-inv.webp'); --gl-bg-opacity: .16; background-position: center; background-size: cover; }
-.gl-bg--quote::before   { background-image: url('/img/bg/hero-alps-inv.webp'); --gl-bg-opacity: .1; }
 
 /* ---------- 页脚：logo 炭黑 ---------- */
 .VPFooter { background: var(--gl-ink) !important; border-top: 0 !important; padding: 40px 24px !important; }
