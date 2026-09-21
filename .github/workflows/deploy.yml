@@ -29,8 +29,8 @@ jobs:
       - run: npm ci
       - run: npx vitepress build docs
         env:
-          SITE_BASE: /grosso.link/
-          SITE_URL: https://neurusuv.github.io
+          SITE_BASE: /
+          SITE_URL: https://grosso.link
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
